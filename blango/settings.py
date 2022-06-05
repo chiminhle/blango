@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-+sn%dpa!086+g+%44z9*^j^q-u4n!j(#wl)x9a%_1op@zz2+1-
 DEBUG = True
 
 ALLOWED_HOSTS = [
-  'swinghazard-doorsincere-8000.codio.io'
+  'swinghazard-doorsincere-8000.codio.io',
+   'maxwellnirvana-prodigyagatha-8000.codio.io' 
 ]
 
 
@@ -58,7 +59,7 @@ ROOT_URLCONF = 'blango.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
