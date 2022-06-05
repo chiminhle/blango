@@ -27,7 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
   'swinghazard-doorsincere-8000.codio.io',
-   'maxwellnirvana-prodigyagatha-8000.codio.io' 
+   'maxwellnirvana-prodigyagatha-8000.codio.io',
+   'ibizafrog-levelpresto-8000.codio.io' 
 ]
 
 
