@@ -29,7 +29,8 @@ ALLOWED_HOSTS = [
   'swinghazard-doorsincere-8000.codio.io',
    'maxwellnirvana-prodigyagatha-8000.codio.io',
    'ibizafrog-levelpresto-8000.codio.io',
-   'laurarudolf-ozonevocal-8000.codio.io' 
+   'laurarudolf-ozonevocal-8000.codio.io',
+    'clarionmission-lavamoney-8000.codio.io' 
 ]
 
 
@@ -44,6 +45,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # Custom apps
     'blog',
+    "crispy_forms",
+    "crispy_bootstrap5"
+
 ]
 
 MIDDLEWARE = [
@@ -131,4 +135,5 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_TRUSTED_ORIGINS = ["https://swinghazard-doorsincere-8000.codio.io/admin"]
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
+CRISPY_TEMPLATE_PACK = "bootstrap5"
